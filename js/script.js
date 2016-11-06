@@ -23,12 +23,6 @@ $( function() {
 			
 		},
 		
-		test: function() {
-			
-			console.log( 'Hello World! - ' + this.someVariables );
-			
-		},
-		
 		getREST: function() {
 			
 			$.ajax({
@@ -82,8 +76,6 @@ $( function() {
 				}).done( function( response ) {
 					
 					var $content = $( '.content' ).empty();
-					
-					var postTitle = '<h2>' + response.title.rendered + '</h2>';
 					
 					var postContent = response.content.rendered;
 					
