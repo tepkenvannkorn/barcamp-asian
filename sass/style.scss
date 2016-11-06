@@ -1,0 +1,26 @@
+/**
+ *	PROJECT			:		Project Name
+ *	DEVELOPER		:		CAMWP DEV Team
+ *	DEVELOPER URI	:		https://camwpdev.com
+ *	DATE			:		20-August-2016
+ */
+
+@import "bootstrap-compass";
+@import "bootstrap-variables";
+@import "bootstrap";
+@import "compass/css3";
+@import "variables";
+
+html,
+body {
+	
+	/* Prevent horizontal scrolling bar appears when pinterest extension is installed */
+
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	color: $color-text;
+	font-family: $font-family-serif;
+}
